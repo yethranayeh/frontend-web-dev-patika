@@ -1,0 +1,68 @@
+body {
+    background-color: #DDDDDD;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #30475E;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px 2px #F05454;
+    /* font-size: 320%; */
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+a {
+    color: #222831;
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration: none;
+}
+
+p {
+    color: #F05454;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    line-height: 140%;
+    text-align: justify;
+    text-shadow: 1px 2px 2px #30475E;
+    
+}
+
+div {
+    margin: 35px;
+}
+
+.media {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px #F05454;
+    border-style: ridge;
+}
+
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.nav-link {
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.onpage {
+    text-decoration: underline;
+    color: #30475E;
+    text-shadow: 1px 1px 2px #222831;
+}
