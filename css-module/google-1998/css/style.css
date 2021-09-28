@@ -1,0 +1,85 @@
+/* collective height value for linksblock objects */
+.height {
+    height: 60px;
+}
+
+/* Center the logo */
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Align 3 blocks evenly */
+#linksblock {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 5px 100px;
+}
+
+/* Paragraph margins removed to imitate Google! 1998 */
+p {
+    margin: 0px;
+}
+
+#search {
+    background-color: #eeeeee;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#special {
+    background-color: #7ee5da;
+    text-align: center;
+    width: 40%;
+    float: left;
+}
+
+#links {
+    background-color: #70ccc2;
+    font-size: small;
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+
+#email {
+    background-color: #62b3aa;
+    text-align: center;
+    font-size: small;
+    width: 40%;
+    float: left;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    margin: 15px;
+}
+
+/* Clear float after linksblock div */
+.clearfix {
+    clear: both;
+}
+
+/* Margin right for first 2 blocks */
+.mlr:nth-of-type(1), .mlr:nth-of-type(2) {
+    padding: 10px 0px;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+/* No margin right for third block */
+.mlr:nth-of-type(3) {
+    padding: 10px 0px;
+    margin-top: 3px;
+}
