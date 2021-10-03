@@ -46,3 +46,8 @@ input.empty {
   text-decoration: none;
   color: lightgrey;
 }
+
+/* Middle Area Class Definitions */
+.middlearea {
+  max-height: 200px !important;
+}
