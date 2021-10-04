@@ -45,6 +45,7 @@ input.empty {
 /* sticky-sidebar */
 #sticky-sidebar {
   position: sticky;
+  top: 4.35em;
 }
 
 /* Right Panel Class */
