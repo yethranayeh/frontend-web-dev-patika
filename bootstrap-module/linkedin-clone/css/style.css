@@ -65,9 +65,10 @@ input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url("../assets/edit-regular.svg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-position: 1em center;
+  background-size: 5%;
 }
 
 div.card {
