@@ -15,7 +15,8 @@ input.searche::placeholder {
   color: gray;
   background-image: url("../assets/search-solid.svg");
   background-repeat: no-repeat;
-  background-size: 7%;
+  background-position: 5% center;
+  background-size: 5%;
 }
 
 .body {
